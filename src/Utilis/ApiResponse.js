@@ -8,7 +8,7 @@ class ApiResponse {
     if (typeof data !== "object" || Array.isArray(data)) {
       this.data = { data };
     } else {
-      this.data = data;
+      this.data = { data };
     }
   }
 }

@@ -1,6 +1,6 @@
-import { asyncHandler } from "../Utilis/AsyncHandler";
+import { asyncHandler } from "../Utilis/AsyncHandler.js";
 import { ApiError } from "../Utilis/ApiError.js";
-import { User } from "../Models/user.models";
+import { User } from "../Models/user.models.js";
 import { ApiResponse } from "../Utilis/ApiResponse.js";
 
 const registerUser = asyncHandler(async (req, res) => {
